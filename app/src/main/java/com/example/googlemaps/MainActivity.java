@@ -32,8 +32,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private FusedLocationProviderClient fusedLocationClient;
     private LocationCallback locationCallback;
     private boolean isFirstUpdate = true;
-
-    private Marker repartidorMarker;
     private LatLng clienteCoords = new LatLng(-27.7297359, -64.2335289); // Coordenadas del cliente (ejemplo)
     private final String API_KEY = "API_KEY"; // clave API de Google
 
